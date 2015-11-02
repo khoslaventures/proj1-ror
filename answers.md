@@ -1,4 +1,5 @@
 # Q0: Why is this error being thrown?
+Because we don't have a controller for our Pokemon model.
 
 # Q1: How are the random Pokemon appearing? What is the common factor between all the possible Pokemon that appear? *
 
@@ -11,5 +12,5 @@
 # Question 5: Explain how putting this line "flash[:error] = @pokemon.errors.full_messages.to_sentence" shows error messages on your form.
 
 # Give us feedback on the project and decal below!
-
+Not bad, I just wish the deadlines weren't set in stone as I don't always have time every week to complete each thing on time. Sometimes I worry about passing with my late assignments.
 # Extra credit: Link your Heroku deployed app
