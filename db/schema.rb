@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151101074320) do
+ActiveRecord::Schema.define(version: 20151112102138) do
 
   create_table "pokemons", force: :cascade do |t|
     t.string   "name"
@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 20151101074320) do
     t.string   "integer"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer  "hp"
   end
 
   create_table "trainers", force: :cascade do |t|

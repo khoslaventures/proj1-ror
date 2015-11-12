@@ -5,4 +5,9 @@
 <% Pokemon.where(trainer:@trainer.id).each do |p| %>
 	<p> Pokemon: <%= p.name %> </p>
 	<p> Level: <%= p.level %> </p>
+  <p> Health Points: <%= p.hp %> </p>
+  <%= button_to "Damage!", damage_path(id:p), :class => "button small", :method => :patch %>
+<% end %>
+<% if current_trainer == @trainer %>
+	<%= button_to "New Pokemon", new_path(), :class => "button small", :method => :post %>
 <% end %>

@@ -12,6 +12,7 @@ The button_to method makes a button with "Throw a Pokeball!" over it. It then de
 Personally, I don't like naming pokemon since they constantly say their own name and that pretty much always fits.
 
 # Question 4: What did you pass into the redirect_to? If it is a path, what did that path need? If it is not a path, why is it okay not to have a path here?
+I passed a path to redirect_to. The path needed the trainer's id to decide which trainer show page to direct to.
 
 # Question 5: Explain how putting this line "flash[:error] = @pokemon.errors.full_messages.to_sentence" shows error messages on your form.
 
