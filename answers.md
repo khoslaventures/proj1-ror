@@ -15,6 +15,7 @@ Personally, I don't like naming pokemon since they constantly say their own name
 I passed a path to redirect_to. The path needed the trainer's id to decide which trainer show page to direct to.
 
 # Question 5: Explain how putting this line "flash[:error] = @pokemon.errors.full_messages.to_sentence" shows error messages on your form.
+applications.html.erb will render messages.html.erb, which flashes an alert message if there exists one. "flash[:error] = @pokemon.errors.full_messages.to_sentence" is what makes sure the alert message is not nil.
 
 # Give us feedback on the project and decal below!
 Not bad, I just wish the deadlines weren't set in stone as I don't always have time every week to complete each thing on time. Sometimes I worry about passing with my late assignments.

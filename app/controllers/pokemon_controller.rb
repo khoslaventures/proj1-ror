@@ -30,7 +30,6 @@ class PokemonController < ApplicationController
     	@pokemon.level = 1
     	@pokemon.hp = 100
    		render current_trainer
-    end
     else
       render "new"
       flash[:error] = @pokemon.errors.full_messages.to_sentence
